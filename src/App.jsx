@@ -1,7 +1,6 @@
 //Frameworks
 import React, { useState } from 'react';
 
-
 //Files
 import IllusHello from './assets/illus_hello.png';
 import IllusHelloSad from './assets/illus_hellosad.svg';
@@ -11,16 +10,30 @@ import ProjectAlise from './assets/ProjectAlise.png';
 import ProjectOC from './assets/ProjectOC.png';
 import ProjectGYC from './assets/ProjectGYC.png';
 import ProjectAO from './assets/ProjectAO.png';
-import Donut0 from './assets/donut0.svg';
-import Donut1 from './assets/donut1.svg';
-import Donut2 from './assets/donut2.svg';
-import Donut3 from './assets/donut3.svg';
-import Donut4 from './assets/donut4.svg';
-
+import { ClickableDonut } from './components/ClickableDonut';
 
 export default function App() {
   const [IsShown, setIsShown] = useState(false);
-  const [NoOfBites, setNoOfBites] = useState(0);
+  const [noOfBites, setNoOfBites] = useState(0);
+
+
+  // const defaultBurst = () => {
+  //   const animDom = useRef();
+  //   const defaultBurst = useRef();
+
+  //   useEffect(() => {
+  //     if (defaultBurst.current) return;
+  //     defaultBurst.current = new mojs.Burst({
+  //       parent: animDom.current,
+  //       radius: {0:100},
+  //     });
+  //   defaultBurst.current.play();
+  //   })};
+
+  // const clickHandler = useCallback(() => {
+  //   defaultBurst.current.play();
+  // });
+
 
   return (
     <div className="bg-mytheme-sand w-screen...">
@@ -62,32 +75,14 @@ export default function App() {
 
         <div className="grid grid-cols-1 place-self-center w-full...">
           <div className="relative h-80 w-80 place-self-center">
-            {NoOfBites < 4 &&
+            {noOfBites < 4 &&
               <img className='h-80 place-self-center fill-mytheme-charcoal' src={IllusHello} />
             }
-            {NoOfBites == 4 &&
+            {noOfBites == 4 &&
               <img className='h-80 place-self-center fill-mytheme-charcoal' src={IllusHelloSad} />
             }
-            {NoOfBites == 0 &&
-              <div className="absolute top-20 right-12">
-                <img className="h-16 animate-bounce cursor-pointer" src={Donut0} onClick={() => setNoOfBites(1)} />
-              </div>}
-            {NoOfBites == 1 &&
-              <div className="absolute top-20 right-12">
-                <img className="h-16 animate-bounce cursor-pointer" src={Donut1} onClick={() => setNoOfBites(2)} />
-              </div>}
-            {NoOfBites == 2 &&
-              <div className="absolute top-20 right-12">
-                <img className="h-16 animate-bounce cursor-pointer" src={Donut2} onClick={() => setNoOfBites(3)} />
-              </div>}
-            {NoOfBites == 3 &&
-              <div className="absolute top-20 right-12">
-                <img className="h-16 animate-bounce cursor-pointer" src={Donut3} onClick={() => setNoOfBites(4)} />
-              </div>}
-            {NoOfBites == 4 &&
-              <div className="absolute top-20 right-12">
-                <img className="h-16 animate-bounce cursor-pointer" src={Donut4} onClick={() => setNoOfBites(0)} />
-              </div>}
+            <ClickableDonut noOfBites={noOfBites} setNoOfBites={setNoOfBites} />
+
           </div>
           <div className="pb-8 space-y-2 place-self-center">
             <p className="font-bold text-center text-5xl text-mytheme-charcoal">{"Hola! I'm Sarah,"}</p>
