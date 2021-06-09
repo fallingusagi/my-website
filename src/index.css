@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'Work Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+}
 
 body {
   margin: 0;

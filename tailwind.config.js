@@ -2,7 +2,12 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      'display' : ['"Work Sans"',],
+    },
+
     extend: {
+
       colors: {
         'mytheme-pearl':'#FAF8F7',
         'mytheme-sand':'#F5F2EF',

@@ -1,1 +1,1 @@
-export {ClickableDonut} from './ClickableDonut';
+export { ClickableDonut } from './ClickableDonut';
