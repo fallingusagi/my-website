@@ -1,9 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { CardImage } from './CardImage';
+import { useHistory } from 'react-router-dom'
 
-export const Card = ({ imageSrc, title, body, award, awardName, onClick }) =>
-    <div className="rounded-lg overflow-hidden group border-2 border-mytheme-shell bg-mytheme-pearl hover:bg-white hover:shadow-lg hover:border-transparent" onClick={onClick}>
+export const Card = ({ imageSrc, title, body, award, awardName, pageLink }) => {
+    const history = useHistory();
+
+    const handleClick = (link) => {
+        history.push(link)
+    }
+
+    return(
+        <div className="cursor-pointer rounded-lg overflow-hidden group border-2 border-mytheme-shell bg-mytheme-pearl hover:bg-white hover:shadow-lg hover:border-transparent" onClick={() => handleClick(pageLink)}>
         <CardImage imageSrc={imageSrc} />
         <div className="p-4 space-y-1">
             <div className="inline-flex flex-wrap items-center justify-start space-y-1">
@@ -21,6 +29,8 @@ export const Card = ({ imageSrc, title, body, award, awardName, onClick }) =>
         </div>
     </div>
 
+    )
+}
 
 Card.propTypes = {
     imageSrc: PropTypes.string,
@@ -28,7 +38,7 @@ Card.propTypes = {
     body: PropTypes.string,
     award: PropTypes.bool,
     awardName: PropTypes.string,
-    onClick: PropTypes.func,
+    pageLink: PropTypes.string,
 };
 
 Card.defaultProps = {
