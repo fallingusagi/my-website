@@ -11,6 +11,11 @@ import {
 //Pages
 import { Main } from "./pages";
 import { ProjectPageCC } from './pages/projectCC';
+import { ProjectPagePayLah } from './pages/projectPayLah';
+import { ProjectPageAlise } from './pages/projectAlise';
+import { ProjectPageGYC } from './pages/projectGYC';
+import { ProjectPageOC } from './pages/projectOC';
+import { ProjectPageAO } from './pages/projectAO';
 import { NotFound } from './pages/lalala';
 
 class App extends Component {
@@ -20,6 +25,11 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/projectCC" component={ProjectPageCC} />
+          <Route exact path="/projectPayLah" component={ProjectPagePayLah} />
+          <Route exact path="/projectAlise" component={ProjectPageAlise} />
+          <Route exact path="/projectGYC" component={ProjectPageGYC} />
+          <Route exact path="/projectOC" component={ProjectPageOC} />
+          <Route exact path="/projectAO" component={ProjectPageAO} />
           <Route component={NotFound} status={404}/>
         </Switch>
       </Router>
