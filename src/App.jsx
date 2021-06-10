@@ -11,7 +11,7 @@ import {
 //Pages
 import { Main } from "./pages";
 import { ProjectPageCC } from './pages/projectCC';
-import { NotFound } from './pages/404';
+import { NotFound } from './pages/lalala';
 
 class App extends Component {
   render() {
@@ -20,8 +20,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/projectCC" component={ProjectPageCC} />
-          <Route exact path="/404" component={NotFound} />
-          <Redirect to="/404" />
+          {/* <Route exact path="/404" component={NotFound} />
+          <Redirect to="/404" /> */}
         </Switch>
       </Router>
     );
