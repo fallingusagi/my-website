@@ -82,11 +82,11 @@ export const ClickableDonut = ({ burstCallBack, resetCallBack }) => {
     return (
         <img className="h-16 box-border animate-bounce cursor-pointer" src={currSVG} onClick={(event) => {
             bite(event)
-            buttonBurstsPool[burstIndex]
-                .tune({ x: event.pageX, y: event.pageY })
-                .generate()
-                .replay();
-            burstIndex = burstIndex >= buttonBurstsPool.length - 1 ? 0 : burstIndex + 1;
+            // buttonBurstsPool[burstIndex]
+            //     .tune({ x: event.pageX, y: event.pageY })
+            //     .generate()
+            //     .replay();
+            // burstIndex = burstIndex >= buttonBurstsPool.length - 1 ? 0 : burstIndex + 1;
         }
         } />
     );
