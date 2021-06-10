@@ -16,12 +16,11 @@ import { NotFound } from './pages/lalala';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/projectCC" component={ProjectPageCC} />
-          {/* <Route exact path="/404" component={NotFound} />
-          <Redirect to="/404" /> */}
+          <Route component={NotFound} status={404}/>
         </Switch>
       </Router>
     );
