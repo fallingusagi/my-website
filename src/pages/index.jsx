@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 //Assets
-import IllusHello from '../assets/illus_hello.png';
+import IllusHello from '../assets/illus_hello.svg';
 import IllusHelloSad from '../assets/illus_hellosad.svg';
 import ProjectCC from '../assets/ProjectCC.png';
 import ProjectPayLah from '../assets/ProjectPayLah.png';
@@ -27,7 +27,7 @@ export const Main = () => {
     <div className="bg-mytheme-sand w-screen...">
       <Header />
 
-      <div className="px-24 xl:px-40 pt-8 pb-24 space-y-4 sm:space-y-8 justify-center w-full...">
+      <div className="px-12 sm:px-24 xl:px-40 pt-8 pb-24 space-y-4 sm:space-y-8 justify-center w-full...">
 
         <div className="grid grid-cols-1 place-self-center w-full...">
           <div className="relative h-80 w-80 place-self-center">

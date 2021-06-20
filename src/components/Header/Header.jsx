@@ -22,8 +22,8 @@ export function Header({ level }) {
         <div
             className={
                 smallHeader
-                    ? "transition-all ease-in-out fixed inline-flex items-center w-full z-50 overflow-visible px-24 xl:px-40 py-2 space-x-4 sm:space-x-8 bg-mytheme-pearl bg-opacity-90 shadow-sm backdrop-blur"
-                    : "transition-all ease-in-out fixed inline-flex items-center w-full z-50 overflow-visible px-24 xl:px-40 py-6 space-x-4 sm:space-x-8"
+                    ? "transition-all ease-in-out fixed inline-flex items-center w-full z-50 overflow-visible px-12 sm:px-24 xl:px-40 py-2 space-x-4 sm:space-x-8 bg-mytheme-pearl bg-opacity-90 shadow-sm backdrop-blur"
+                    : "transition-all ease-in-out fixed inline-flex items-center w-full z-50 overflow-visible px-12 sm:px-24 xl:px-40 py-6 space-x-4 sm:space-x-8"
             }>
             {smallHeader &&
                 <img className="h-8 w-8" src={Donut0} />
