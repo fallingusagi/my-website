@@ -27,7 +27,7 @@ export const ProjectPageFR = () => {
                                 {"Things don't always work as they should in the workplace 🙁. But the way to getting them fixed should..."}
                             </p>
                             <p className="text-sm text-mytheme-ebony">
-                                {"So we reimagined the process into three easy steps, and improved awareness and accessibility by pinpointing points of need, resulting in an increase in adoption of more than 100% after launch, and a prized"} <a href="https://sgmark.org/project-description/?id=258" className="font-medium text-mytheme-charcoal text-sm hover:underline">{"SG Mark 2021 Award"}</a> {"from Design Business Chamber Singapore (DBCS)."}
+                                {"So we reimagined the process into three easy steps, and improved awareness and accessibility by pinpointing points of need, resulting in an increase in adoption of more than 100% after launch, and a"} <a href="https://sgmark.org/project-description/?id=258" className="font-medium text-mytheme-charcoal text-sm hover:underline">{"SG Mark 2021 Award"}</a> {"from Design Business Chamber Singapore (DBCS) to boot!"}
                             </p>
 
                         </div>
