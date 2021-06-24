@@ -31,15 +31,27 @@ export const Main = () => {
 
         <div className="grid grid-cols-1 place-self-center w-full...">
           <div className="relative h-80 w-80 place-self-center">
-            <img className='h-80 place-self-center fill-mytheme-charcoal' src={helloFace} />
+            <img className='h-80 place-self-center fill-gray-800' src={helloFace} />
             <div className="absolute top-20 right-12">
               <ClickableDonut burstCallBack={burstCallBack} resetCallBack={resetCallBack} />
             </div>
 
           </div>
-          <div className="pb-8 space-y-0 sm:space-y-2 place-self-center">
-            <p className=" font-bold text-center text-3xl sm:text-5xl text-mytheme-charcoal">{"Hola! I'm Sarah,"}</p>
-            <p className=" font-semibold text-center text-lg sm:text-2xl text-mytheme-charcoal">{"sugar-eater and experience designer"}</p>
+          <div className="pb-8 space-y-4 sm:space-y-8 justify-center">
+            <div className="space-y-0 sm:space-y-2">
+              <p className=" font-bold text-center text-3xl sm:text-5xl text-mytheme-charcoal">{"Hola! I'm Sarah,"}</p>
+              <p className=" font-semibold text-center text-lg sm:text-2xl text-mytheme-charcoal">{"sugar-eater and experience designer"}</p>
+            </div>
+
+            <p className="text-center text-sm sm:text-lg text-mytheme-charcoal">
+              {"Humanising products and processes through researching, defining parameters, and synthesising them into solutions is what I like to do"}
+            </p>
+            {/* <ul className="max-w-max text-xs sm:text-sm text-mytheme-charcoal list-disc list-inside">
+              <li>{"Branding, illustration, & digital / traditional painting"}</li>
+              <li>{"Animation & basic video-editing"}</li>
+              <li>{"Simple frontend coding (like this website!)"}</li>
+              <li>{"Offer dessert recommendations :))"}</li>
+            </ul> */}
           </div>
         </div>
 
@@ -50,7 +62,7 @@ export const Main = () => {
             title={"Client Connect"} body={"Empowering Relationship Managers to serve 600+ clients"} />
           <Card imageSrc={ProjectPayLah} pageLink={"/projectPayLah"} title={"PayLah!"} body={"Making everyday payments more engaging"} />
           <Card imageSrc={ProjectAlise} pageLink={"/projectAlise"} title={"alise"} body={"Shop until you (don't) drop"} />
-          <Card imageSrc={ProjectFR} award={true} awardName={"SG Mark 2021"} title={"Facilities Reporting"} body={"Helping employees get things fixed"} />
+          <Card imageSrc={ProjectFR} pageLink={"/projectFR"} award={true} awardName={"SG Mark 2021"} title={"Facilities Reporting"} body={"Helping employees get things fixed"} />
           <Card imageSrc={ProjectGYC} pageLink={"/projectGYC"} title={"Global Youth Conference"} body={"Branding an international sociocultural youth conference"} />
           <Card imageSrc={ProjectOC} pageLink={"/projectOC"} title={"One Community"} body={"Creating visuals with clear messages"} />
           <Card imageSrc={ProjectAO} pageLink={"/projectAO"} title={"Misc Projects"} body={"Branding a space-tech company that takes us to space sustainably, and more!"} />

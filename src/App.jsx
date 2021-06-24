@@ -13,6 +13,7 @@ import { Main } from "./pages";
 import { ProjectPageCC } from './pages/projectCC';
 import { ProjectPagePayLah } from './pages/projectPayLah';
 import { ProjectPageAlise } from './pages/projectAlise';
+import { ProjectPageFR } from './pages/projectFR';
 import { ProjectPageGYC } from './pages/projectGYC';
 import { ProjectPageOC } from './pages/projectOC';
 import { ProjectPageAO } from './pages/projectAO';
@@ -27,6 +28,7 @@ class App extends Component {
           <Route exact path="/projectCC" component={ProjectPageCC} />
           <Route exact path="/projectPayLah" component={ProjectPagePayLah} />
           <Route exact path="/projectAlise" component={ProjectPageAlise} />
+          <Route exact path="/projectFR" component={ProjectPageFR} />
           <Route exact path="/projectGYC" component={ProjectPageGYC} />
           <Route exact path="/projectOC" component={ProjectPageOC} />
           <Route exact path="/projectAO" component={ProjectPageAO} />
