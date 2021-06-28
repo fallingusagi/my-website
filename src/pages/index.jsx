@@ -37,15 +37,17 @@ export const Main = () => {
             </div>
 
           </div>
-          <div className="pb-8 space-y-4 sm:space-y-8 justify-center">
+          <div className="pb-8 space-y-4 sm:space-y-8 place-self-center">
             <div className="space-y-0 sm:space-y-2">
               <p className=" font-bold text-center text-3xl sm:text-5xl text-mytheme-charcoal">{"Hola! I'm Sarah,"}</p>
               <p className=" font-semibold text-center text-lg sm:text-2xl text-mytheme-charcoal">{"sugar-eater and experience designer"}</p>
             </div>
+            <div className="justify-center">
+              <p className="max-w-screen-sm text-center text-sm sm:text-lg text-mytheme-charcoal">
+                {"Humanising products and processes through researching, defining parameters, and synthesising solutions is what I do"}
+              </p>
+            </div>
 
-            <p className="text-center text-sm sm:text-lg text-mytheme-charcoal">
-              {"Humanising products and processes through researching, defining parameters, and synthesising them into solutions is what I like to do"}
-            </p>
             {/* <ul className="max-w-max text-xs sm:text-sm text-mytheme-charcoal list-disc list-inside">
               <li>{"Branding, illustration, & digital / traditional painting"}</li>
               <li>{"Animation & basic video-editing"}</li>

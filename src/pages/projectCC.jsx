@@ -8,7 +8,7 @@ export const ProjectPageCC = () => {
         <div className="bg-mytheme-sand w-screen...">
             <Header level={"L2"} />
 
-            <div className="px-24 xl:px-40 pt-8 pb-24 space-y-4 sm:space-y-8 justify-center w-full...">
+            <div className="px-12 sm:px-24 xl:px-40 pt-8 pb-24 space-y-4 sm:space-y-8 justify-center w-full...">
 
                 <div className="grid grid-cols-1 space-y-16 place-self-center w-full...">
                     <div className="h-1 w-full"></div>
@@ -27,7 +27,10 @@ export const ProjectPageCC = () => {
                                 {"Client Connect is a one-stop internal tool that empowers DBS Bank Ltd’s Relationship Managers to better manage and serve their pool of 200+ clients. "}
                             </p>
                             <p className="text-sm text-mytheme-ebony">
-                                {"I worked with 2 other UX designers to bring the design from project inception to pilot launch, collaborating closely with business / UX research / devs, and presented to the bank’s key stakeholders at various milestones along the way."}
+                                {"I worked with 2 other UX designers to bring the project from inception to launch, collaborating closely with business / UX research / devs, and presenting to the bank’s key stakeholders at various milestones along the way."}
+                            </p>
+                            <p className="text-sm text-mytheme-ebony">
+                                {"Creating the system from scratch provided many opportunities to design data structures, interaction models, and contribute design elements for use by other teams."}
                             </p>
                         </div>
                     </div>
