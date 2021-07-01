@@ -27,9 +27,6 @@ export const ProjectPageCC = () => {
                                 {"Client Connect is a one-stop internal tool that empowers DBS Bank Ltd’s Relationship Managers to better manage and serve their pool of 200+ clients. "}
                             </p>
                             <p className="text-sm text-mytheme-ebony">
-                                {"I worked with 2 other UX designers to bring the project from inception to launch, collaborating closely with business / UX research / devs, and presenting to the bank’s key stakeholders at various milestones along the way."}
-                            </p>
-                            <p className="text-sm text-mytheme-ebony">
                                 {"Creating the system from scratch provided many opportunities to design data structures, interaction models, and contribute design elements for use by other teams."}
                             </p>
                         </div>
