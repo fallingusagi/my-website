@@ -50,36 +50,36 @@ export const ProjectPageFR = () => {
                                 {"Project stakeholders felt the tool was under-utilised, "}
                                 {"and with some initial research, we quickly found out why. "}
                             </p>
-                            <ul className="max-w-max space-y-2 list-decimal list-inside">
+                            <ul className="max-w-max space-y-0 list-decimal list-inside">
                                 <div className="space-y-0">
-                                    <li className="text-xs sm:text-sm md:text-base  font-medium text-mytheme-charcoal">
+                                    <li className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                         {"Users couldn't find the right category"}
                                     </li>
-                                    <div className="pl-5">
+                                    {/* <div className="pl-5">
                                         <p className="text-xs sm:text-sm text-mytheme-ebony">
                                             {"4 out of 5 users had trouble searching for the right category. "}
                                             {"31% of the raised requests were made in the wrong sub-category, "}
                                             {"resulting in service delays. "}</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="space-y-0">
-                                    <li className="text-xs sm:text-sm md:text-base  font-medium text-mytheme-charcoal">
+                                    <li className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                         {"The form was veeery lengthy"}
                                     </li>
-                                    <div className="pl-5">
+                                    {/* <div className="pl-5">
                                         <p className="text-xs sm:text-sm  text-mytheme-ebony">
                                             {"The average form completion time was 9 minutes. "}</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="space-y-0">
-                                    <li className="text-xs sm:text-sm md:text-base  font-medium text-mytheme-charcoal">
+                                    <li className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                         {"Users couldn't track their existing requests"}
                                     </li>
-                                    <div className="pl-5">
+                                    {/* <div className="pl-5">
                                         <p className="text-xs sm:text-sm  text-mytheme-ebony">
                                             {"Post-submission there were no clear next steps, and all users we observed "}
                                             {"weren't aware there was a webpage where they could check their request status."}</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </ul>
                         </div>
