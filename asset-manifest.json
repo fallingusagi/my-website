@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.67964fa0.chunk.css",
-    "main.js": "/static/js/main.3c15f424.chunk.js",
-    "main.js.map": "/static/js/main.3c15f424.chunk.js.map",
+    "main.css": "/static/css/main.8bb7cb1c.chunk.css",
+    "main.js": "/static/js/main.4b628322.chunk.js",
+    "main.js.map": "/static/js/main.4b628322.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf192771.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf192771.js.map",
     "static/js/2.5a76507b.chunk.js": "/static/js/2.5a76507b.chunk.js",
@@ -10,12 +10,18 @@
     "static/js/3.7880564e.chunk.js": "/static/js/3.7880564e.chunk.js",
     "static/js/3.7880564e.chunk.js.map": "/static/js/3.7880564e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.67964fa0.chunk.css.map": "/static/css/main.67964fa0.chunk.css.map",
+    "static/css/main.8bb7cb1c.chunk.css.map": "/static/css/main.8bb7cb1c.chunk.css.map",
     "static/js/2.5a76507b.chunk.js.LICENSE.txt": "/static/js/2.5a76507b.chunk.js.LICENSE.txt",
     "static/media/AO1.0fdaa6d8.png": "/static/media/AO1.0fdaa6d8.png",
     "static/media/Alise1.7182591c.png": "/static/media/Alise1.7182591c.png",
     "static/media/CC1.45fd144f.png": "/static/media/CC1.45fd144f.png",
+    "static/media/FR card sort.a909be60.jpg": "/static/media/FR card sort.a909be60.jpg",
+    "static/media/FR crazy dropdowns.a5bbca0a.png": "/static/media/FR crazy dropdowns.a5bbca0a.png",
+    "static/media/FR journey map.5d3cc207.jpg": "/static/media/FR journey map.5d3cc207.jpg",
+    "static/media/FR pie tree.89625928.png": "/static/media/FR pie tree.89625928.png",
     "static/media/FR1.30a7b7e5.png": "/static/media/FR1.30a7b7e5.png",
+    "static/media/FR2.e84001cb.png": "/static/media/FR2.e84001cb.png",
+    "static/media/FR4.6ff823ad.png": "/static/media/FR4.6ff823ad.png",
     "static/media/GYC1.8fa37995.png": "/static/media/GYC1.8fa37995.png",
     "static/media/OC1.afc76e3d.png": "/static/media/OC1.afc76e3d.png",
     "static/media/PayLah1.c57d9ed1.png": "/static/media/PayLah1.c57d9ed1.png",
@@ -37,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf192771.js",
     "static/js/2.5a76507b.chunk.js",
-    "static/css/main.67964fa0.chunk.css",
-    "static/js/main.3c15f424.chunk.js"
+    "static/css/main.8bb7cb1c.chunk.css",
+    "static/js/main.4b628322.chunk.js"
   ]
 }
