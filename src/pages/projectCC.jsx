@@ -13,6 +13,7 @@ export const ProjectPageCC = () => {
                 <div className="grid grid-cols-1 space-y-16 place-self-center w-full...">
                     <div className="h-1 w-full"></div>
                     <img src={ProjectCC} />
+
                     <div className="xs:flex-col sm:inline-flex xs:space-x-0 sm:space-x-8">
                         <div className="flex flex-col">
                             <p className="pr-2 font-medium text-mytheme-charcoal">
