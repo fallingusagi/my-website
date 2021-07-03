@@ -160,6 +160,14 @@ export const ProjectPageFR = () => {
                                     {"vs 9 min today"} </p>
                             </div>
                             <div className="flex-col">
+                                <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
+                                    {"Higher adoption"}</p>
+                                <p className="font-bold text-lg sm:text-3xl md:text-4xl lg:text-5xl text-mytheme-charcoal">
+                                    {"+100%"}</p>
+                                <p className="text-sm sm:text-base md:text-lg text-mytheme-beigepink">
+                                    {"vs today"} </p>
+                            </div>
+                            <div className="flex-col">
                                 <p className="text-sm sm:text-base md:text-lg text-mytheme-beigepink">
                                     {"Less problematic requests"}</p>
                                 <p className="font-bold text-lg sm:text-3xl md:text-4xl lg:text-5xl text-mytheme-beigepink">
