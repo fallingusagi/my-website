@@ -9,6 +9,7 @@ import PayLahinterview from '../assets/PayLahinterview.png';
 import PayLahcompetitors from '../assets/PayLahcompetitors.png';
 import PayLahideation from '../assets/PayLahideation.png';
 import { Header } from '../components/Header/Header';
+import { NextPage } from '../components/NextPage/NextPage';
 
 export const ProjectPagePayLah = () => {
     return (
@@ -26,7 +27,7 @@ export const ProjectPagePayLah = () => {
                             {"PayLah! / android and iOS app for DBS Bank Ltd."}
                         </p>
                         <p className="font-bold text-lg sm:text-3xl md:text-4xl lg:text-5xl text-mytheme-charcoal">
-                            {"How we helped a payments app go beyond just payments"}
+                            {"How I helped a payments app go beyond just payments"}
                         </p>
                         <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                             {"DBS PayLah! is a mobile payment/wallet service offered by Singapore-based "}
@@ -94,8 +95,9 @@ export const ProjectPagePayLah = () => {
                             <img src={PayLahideation} />
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                 {"Eventually I distilled these into 5 distinct concepts, each targeting a "}
-                                {"specific problem identified in our earlier research. Again avoiding a lawsuit here, "}
-                                {"but feel free to reach out if you'd like to know more about any project :)"}
+                                {"specific problem identified in our earlier research. Again avoiding a lawsuit here "}
+                                {"especially since some of these ideas are now being developed, but feel free to "}
+                                {"reach out if you'd like to know more about any project :)"}
                             </p>
                             <img src={PayLah1} />
                             <img src={PayLah2} />
@@ -103,7 +105,21 @@ export const ProjectPagePayLah = () => {
                             <img src={PayLah4} />
                             <img src={PayLah5} />
                         </div>
+                        {/* Results */}
+                        <p className="text-base sm:text-lg md:text-xl font-semibold text-mytheme-charcoal">
+                            {"Key results"}</p>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-12 flex items-stretch">
+                            <div className="flex-col">
+                                <p className="text-sm sm:text-base md:text-lg text-mytheme-beigepink">
+                                    {"Currently in development"}</p>
+                                <p className="font-bold text-lg sm:text-3xl md:text-4xl lg:text-5xl text-mytheme-beigepink">
+                                    {"WIP"}</p>
+                                <p className="text-sm sm:text-base md:text-lg text-mytheme-beigepink">
+                                    {"vs today"} </p>
+                            </div>
+                        </div>
                     </div>
+                    <NextPage pageLink={"/projectAlise"} pageLabel={"Next project"}/>
                 </div>
             </div>
         </div>

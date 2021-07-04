@@ -8,6 +8,7 @@ import FRcardsort from '../assets/FR card sort.jpg';
 import FRcrazydropdowns from '../assets/FR crazy dropdowns.png';
 import FRjourneymap from '../assets/FR journey map.jpg';
 import { Header } from '../components/Header/Header';
+import { NextPage } from '../components/NextPage/NextPage';
 
 export const ProjectPageFR = () => {
     return (
@@ -208,10 +209,9 @@ export const ProjectPageFR = () => {
                                 <p className="text-sm sm:text-base md:text-lg text-mytheme-beigepink">
                                     {"vs 31% today"} </p>
                             </div>
-
                         </div>
-
                     </div>
+                    <NextPage pageLink={"/projectPayLah"} pageLabel={"Read more: More than a payments app"}/>
                 </div>
             </div>
         </div>
