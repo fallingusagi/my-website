@@ -27,11 +27,11 @@ export const ProjectPageFR = () => {
                             {"Facilities Reporting Tool / mobile-optimised web app for DBS Bank Ltd."}
                         </p>
                         <p className="font-bold text-lg sm:text-3xl md:text-4xl lg:text-5xl text-mytheme-charcoal">
-                            {"Things don't always work as they should in the workplace... But the way to getting them fixed should!"}
+                            {"Things don't always work in the workplace... But the way to getting them fixed should!"}
                         </p>
                         <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                             {"And thus began our journey to reimagine DBS' existing process that got us an adoption increase of over 100% and a "}
-                            <a href="https://sgmark.org/project-description/?id=258" className="font-medium text-mytheme-charcoal text-sm sm:text-base md:text-lg hover:underline">
+                            <a href="https://sgmark.org/project-description/?id=258" className="font-medium underline text-mytheme-charcoal text-sm sm:text-base md:text-lg hover:underline">
                                 {"SG Mark 2021 Award"}</a>
                             {" from Design Business Chamber Singapore (DBCS) to boot!"}
                         </p>
@@ -58,7 +58,7 @@ export const ProjectPageFR = () => {
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                 {"When we came along, only a handful of users were using the online platform. "}
                                 {"The majority still preferred voicing their displeasures over the hotline, "}
-                                {"and the bank was bleeding money from maintaining both. "}
+                                {"and the company was bleeding money maintaining both. "}
                                 {"The only users who seemed to use the platform regularly were Personal Assistants or Admin staff "}
                                 {"who had been delegated the task as part of their job scope, and had no choice but to comply. "}
                             </p>
@@ -211,7 +211,7 @@ export const ProjectPageFR = () => {
                             </div>
                         </div>
                     </div>
-                    <NextPage pageLink={"/projectPayLah"} pageLabel={"Read more: More than a payments app"}/>
+                    <NextPage pageLink={"/projectAlise"} pageLabel={"Next up: Save the shopping experience!"}/>
                 </div>
             </div>
         </div>

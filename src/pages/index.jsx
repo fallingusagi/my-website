@@ -60,9 +60,9 @@ export const Main = () => {
         {/* Display projects */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-12 flex items-stretch">
 
-          <Card imageSrc={ProjectFR} pageLink={"/projectFR"} award={true} awardName={"SG Mark 2021"} title={"Facilities Reporting"} body={"Helping employees get things fixed"} />
-          <Card imageSrc={ProjectPayLah} pageLink={"/projectPayLah"} title={"PayLah!"} body={"Making everyday payments more engaging"} />
+          <Card imageSrc={ProjectFR} pageLink={"/projectFR"} award={true} awardName={"SG Mark 2021"} title={"Facilities Reporting Tool"} body={"Helping employees get things fixed"} />
           <Card imageSrc={ProjectAlise} pageLink={"/projectAlise"} title={"alise"} body={"Shop until you (don't) drop"} />
+          <Card imageSrc={ProjectPayLah} pageLink={"/projectPayLah"} title={"PayLah!"} body={"Making everyday payments more engaging"} />
           <Card imageSrc={ProjectCC} award={false} pageLink={"/projectCC"}
             title={"Client Connect"} body={"Empowering Relationship Managers to serve 600+ clients"} />
           <Card imageSrc={ProjectGYC} pageLink={"/projectGYC"} title={"Global Youth Conference"} body={"Branding an international sociocultural youth conference"} />
