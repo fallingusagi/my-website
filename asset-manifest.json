@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e17d3fe9.chunk.css",
-    "main.js": "/static/js/main.f87e446e.chunk.js",
-    "main.js.map": "/static/js/main.f87e446e.chunk.js.map",
+    "main.css": "/static/css/main.6fc39284.chunk.css",
+    "main.js": "/static/js/main.323367ae.chunk.js",
+    "main.js.map": "/static/js/main.323367ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.91a05be1.js",
     "runtime-main.js.map": "/static/js/runtime-main.91a05be1.js.map",
     "static/js/2.e6c3c3ab.chunk.js": "/static/js/2.e6c3c3ab.chunk.js",
@@ -10,10 +10,11 @@
     "static/js/3.8e88a1de.chunk.js": "/static/js/3.8e88a1de.chunk.js",
     "static/js/3.8e88a1de.chunk.js.map": "/static/js/3.8e88a1de.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e17d3fe9.chunk.css.map": "/static/css/main.e17d3fe9.chunk.css.map",
+    "static/css/main.6fc39284.chunk.css.map": "/static/css/main.6fc39284.chunk.css.map",
     "static/js/2.e6c3c3ab.chunk.js.LICENSE.txt": "/static/js/2.e6c3c3ab.chunk.js.LICENSE.txt",
     "static/media/AO1.0fdaa6d8.png": "/static/media/AO1.0fdaa6d8.png",
     "static/media/Alise1.7182591c.png": "/static/media/Alise1.7182591c.png",
+    "static/media/Alisetypes.c4e5621b.png": "/static/media/Alisetypes.c4e5621b.png",
     "static/media/CC1.45fd144f.png": "/static/media/CC1.45fd144f.png",
     "static/media/FR card sort.a909be60.jpg": "/static/media/FR card sort.a909be60.jpg",
     "static/media/FR crazy dropdowns.a5bbca0a.png": "/static/media/FR crazy dropdowns.a5bbca0a.png",
@@ -45,12 +46,13 @@
     "static/media/donut3.9d283d07.svg": "/static/media/donut3.9d283d07.svg",
     "static/media/donut4.386c2f95.svg": "/static/media/donut4.386c2f95.svg",
     "static/media/illus_hello.96d005e7.svg": "/static/media/illus_hello.96d005e7.svg",
-    "static/media/illus_hellosad.2cff8a69.svg": "/static/media/illus_hellosad.2cff8a69.svg"
+    "static/media/illus_hellosad.2cff8a69.svg": "/static/media/illus_hellosad.2cff8a69.svg",
+    "static/media/illus_unhappyshopping.7806d7a5.png": "/static/media/illus_unhappyshopping.7806d7a5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.91a05be1.js",
     "static/js/2.e6c3c3ab.chunk.js",
-    "static/css/main.e17d3fe9.chunk.css",
-    "static/js/main.f87e446e.chunk.js"
+    "static/css/main.6fc39284.chunk.css",
+    "static/js/main.323367ae.chunk.js"
   ]
 }
