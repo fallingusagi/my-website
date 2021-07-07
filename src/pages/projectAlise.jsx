@@ -44,13 +44,10 @@ export const ProjectPageAlise = () => {
                             </p>
                             <img src={UnhappyShopping} />
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
-                                {"Somehow, the surge in options now available to us through increased accessibility to "}
-                                {"apparel stores and aggregators worldwide has done little to help us find exactly what "}
-                                {"we're looking for. "}
-                            </p>
-                            <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
-                                {"Curious to find out more, we dove into the data - any sales or consumer trends we could "}
-                                {"get our hands on, for starters. We also grabbed a couple of our shopaholic friends "}
+                                {"Somehow, the surge in options available to us through access to "}
+                                {"apparel stores and aggregators worldwide in this era has done little to help us find exactly what "}
+                                {"we're looking for. Curious to find out more, we dove into the data - any sales or consumer trends we could "}
+                                {"get our hands on, and grabbed a couple of our shopaholic friends "}
                                 {"to understand their shopping behaviours, motivations, and expectations."}
                             </p>
                             <img src={Alisetypes} />
