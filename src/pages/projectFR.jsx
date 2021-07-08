@@ -5,6 +5,7 @@ import FR2 from '../assets/FR2.png';
 import FR4 from '../assets/FR4.png';
 import FRpietree from '../assets/FR pie tree.png';
 import FRcardsort from '../assets/FR card sort.jpg';
+import FRmentalmodel from '../assets/FRmentalmodel.png';
 import FRcrazydropdowns from '../assets/FR crazy dropdowns.png';
 import FRjourneymap from '../assets/FR journey map.jpg';
 import { Header } from '../components/Header/Header';
@@ -110,7 +111,7 @@ export const ProjectPageFR = () => {
                                 {"Through our observation, we noticed there might also be a mental model mismatch issue. "}
                                 {"Though users tended to focus on the problem that needed to be solved, the categories presented to them "}
                                 {"were a mix of object types, locations, and solutions "}
-                                {"(e.g. a user might be thinking of 'leak', 'spill' or 'mess' but they needed to find and select 'mop'). "}</p>
+                                {"(e.g. a user might be thinking of 'spill', 'mess', or 'floor is wet', but they needed to find and select 'mop'). "}</p>
                             <img src={FRcardsort} />
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                 {"Our first course of action was to simplify the list and then invite some users to join us in a card sorting exercise, "}
@@ -119,6 +120,7 @@ export const ProjectPageFR = () => {
                                 {"we could reduce the burden on users by restructuring the category choices based primarily on object types, "}
                                 {"instead of forcing users to think of the solutions they needed. It made sense - "}
                                 {"users describe the problem, the system prescribes the solution."}</p>
+                            <img src={FRmentalmodel} />
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                 {"To test our hypothesis, we presented users with several common scenarios "}
                                 {"describing a problem, where there were two paths (one object-first and one location-first) "}
