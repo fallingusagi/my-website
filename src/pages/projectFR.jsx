@@ -3,6 +3,7 @@ import ProjectFR from '../assets/ProjectFR.png';
 import FR1 from '../assets/FR1.png';
 import FR2 from '../assets/FR2.png';
 import FR4 from '../assets/FR4.png';
+import FRhotline from '../assets/FR hotline.png';
 import FRpietree from '../assets/FR pie tree.png';
 import FRcardsort from '../assets/FR card sort.jpg';
 import FRmentalmodel from '../assets/FRmentalmodel.png';
@@ -46,9 +47,9 @@ export const ProjectPageFR = () => {
                                 {"Background"}
                             </p>
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
-                                {"To address the high manpower costs associated with maintaining a hotline, "}
-                                {"DBS decided to invest in an online platform to gather complaints and effectively "}
-                                {"automate this process, and so the Facilities Reporting Tool was born."}
+                                {"To cut the high manpower costs associated with maintaining a hotline, "}
+                                {"DBS decided to invest in automating the process of lodging facilities issues, "}
+                                {"and thus the online Facilities Reporting service was born."}
                             </p>
                         </div>
                         {/* The situation */}
@@ -57,15 +58,18 @@ export const ProjectPageFR = () => {
                                 {"The situation"}
                             </p>
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
-                                {"When we came along, only a handful of users were using the online platform. "}
+                                {"Unfortunately... when we came along, only a handful of users were using the online platform. "}
                                 {"The majority still preferred voicing their displeasures over the hotline, "}
-                                {"and the company was bleeding money maintaining both. "}
+                                {"and the company was bleeding money from maintaining both channels. "}
+                            </p>
+                            <img src={FRhotline} />
+                            <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                 {"The only users who seemed to use the platform regularly were Personal Assistants or Admin staff "}
                                 {"who had been delegated the task as part of their job scope, and had no choice but to comply. "}
                             </p>
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                 {"Project stakeholders wanted to understand why the tool was so under-utilised, "}
-                                {"and with some initial research, we quickly found out why. "}
+                                {"and with some initial research, we quickly found out why. We identified three main issues as follows: "}
                             </p>
                             <ul className="max-w-max space-y-0 list-decimal list-inside">
                                 <div className="space-y-0">
@@ -81,7 +85,7 @@ export const ProjectPageFR = () => {
                                 </div>
                                 <div className="space-y-0">
                                     <li className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
-                                        {"The form was veeery lengthy"}
+                                        {"Veeery tedious form-filling"}
                                     </li>
                                     {/* <div className="pl-5">
                                         <p className="text-xs sm:text-sm  text-mytheme-ebony">
@@ -99,6 +103,9 @@ export const ProjectPageFR = () => {
                                     </div> */}
                                 </div>
                             </ul>
+                            <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
+                                {"And so our work began,starting with the first issue. "}
+                            </p>
                         </div>
                         {/* Re-categorising the categories */}
                         <div className="space-y-4">
@@ -108,16 +115,16 @@ export const ProjectPageFR = () => {
                                 {"The fact that 4 out of 5 users had difficulty finding the right category to report a fault "}
                                 {"was actually not surprising when we found out there were over 170 sub-categories in total. "}</p>
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
-                                {"Through our observation, we noticed there might also be a mental model mismatch issue. "}
-                                {"Though users tended to focus on the problem that needed to be solved, the categories presented to them "}
+                                {"We also noticed a potential mental model mismatch issue. "}
+                                {"Though users tended to focus on the problem that needed solving, the categories presented to them "}
                                 {"were a mix of object types, locations, and solutions "}
                                 {"(e.g. a user might be thinking of 'spill', 'mess', or 'floor is wet', but they needed to find and select 'mop'). "}</p>
                             <img src={FRcardsort} />
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
-                                {"Our first course of action was to simplify the list and then invite some users to join us in a card sorting exercise, "}
-                                {"wanting to see how users might intuitively group the sub-categories. "}
+                                {"Our first course of action was to simplify the list and then invite some users to join us in a card sorting exercise "}
+                                {"to learn how users intuitively grouped the categories. "}
                                 {"Most behaved as expected, grouping primarily by object types. So it seemed "}
-                                {"we could reduce the burden on users by restructuring the category choices based primarily on object types, "}
+                                {"we could reduce the burden on users by restructuring the category choices based on object types, "}
                                 {"instead of forcing users to think of the solutions they needed. It made sense - "}
                                 {"users describe the problem, the system prescribes the solution."}</p>
                             <img src={FRmentalmodel} />
@@ -213,7 +220,7 @@ export const ProjectPageFR = () => {
                             </div>
                         </div>
                     </div>
-                    <NextPage pageLink={"/projectAlise"} pageLabel={"Next up: Save the shopping experience!"}/>
+                    <NextPage pageLink={"/projectAlise"} pageLabel={"Next up: Save the shopping experience!"} />
                 </div>
             </div>
         </div>
