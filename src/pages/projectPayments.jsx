@@ -29,6 +29,10 @@ export const ProjectPagePayments = () => {
                         <p className="font-bold text-lg sm:text-3xl md:text-4xl lg:text-5xl text-mytheme-charcoal">
                             {"How I helped a payments app go beyond just payments"}
                         </p>
+                        <p className="p-4 rounded-lg bg-yellow-100 bg-opacity-50 text-xs sm:text-sm md:text-base text-gray-500">
+                            {"⚠️ Some information can't be shared if I'm to avoid a lawsuit - so please bear with me, "}
+                            {"and feel free to reach out if you'd like to know more! "}
+                        </p>
                         <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                             {"[Redacted] is a mobile payment/wallet service offered by an international bank "}
                             {"based largely in Southeast Asia."}
