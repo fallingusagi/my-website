@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import IllusHello from '../assets/illus_hello.svg';
 import IllusHelloSad from '../assets/illus_hellosad.svg';
 import ProjectCC from '../assets/ProjectCC.png';
-import ProjectPayLah from '../assets/ProjectPayLah.png';
+import ProjectPayments from '../assets/ProjectPayments.png';
 import ProjectAlise from '../assets/ProjectAlise.png';
 import ProjectFR from '../assets/ProjectFR.png';
 import ProjectOC from '../assets/ProjectOC.png';
@@ -62,9 +62,9 @@ export const Main = () => {
 
           <Card imageSrc={ProjectFR} pageLink={"/projectFR"} award={true} awardName={"SG Mark 2021"} title={"Facilities Reporting Tool"} body={"Helping employees get things fixed"} />
           <Card imageSrc={ProjectAlise} pageLink={"/projectAlise"} title={"alise"} body={"Shop until you (don't) drop"} />
-          <Card imageSrc={ProjectPayLah} pageLink={"/projectPayLah"} title={"PayLah!"} body={"Making everyday payments more engaging"} />
+          <Card imageSrc={ProjectPayments} pageLink={"/projectPayments"} title={"More than a Payments app"} body={"Making everyday payments more engaging"} />
           <Card imageSrc={ProjectCC} award={false} pageLink={"/projectCC"}
-            title={"Client Connect"} body={"Empowering Relationship Managers to serve 600+ clients"} />
+            title={"Next-gen wealth management"} body={"Empowering Relationship Managers to serve 600+ clients"} />
           <Card imageSrc={ProjectGYC} pageLink={"/projectGYC"} title={"Global Youth Conference"} body={"Branding an international sociocultural youth conference"} />
           <Card imageSrc={ProjectOC} pageLink={"/projectOC"} title={"One Community"} body={"Creating visuals with clear messages"} />
           <Card imageSrc={ProjectAO} pageLink={"/projectAO"} title={"Misc Projects"} body={"Branding a space-tech company that takes us to space sustainably, and more!"} />

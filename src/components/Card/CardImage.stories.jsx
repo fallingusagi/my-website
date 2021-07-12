@@ -1,7 +1,7 @@
 import React from "react";
 import { CardImage } from './CardImage';
 import ProjectCC from '../../assets/ProjectCC.png';
-// import ProjectPayLah from '../../assets/ProjectPayLah.png';
+// import ProjectPayments from '../../assets/ProjectPayments.png';
 // import ProjectAlise from '../../assets/ProjectAlise.png';
 // import ProjectOC from '../../assets/ProjectOC.png';
 // import ProjectGYC from '../../assets/ProjectGYC.png';

@@ -7,17 +7,24 @@ import {
   Link,
   Redirect
 } from "react-router-dom";
+import createHistory from "history/createBrowserHistory";
 
 //Pages
 import { Main } from "./pages";
 import { ProjectPageCC } from './pages/projectCC';
-import { ProjectPagePayLah } from './pages/projectPayLah';
+import { ProjectPagePayments } from './pages/projectPayments';
 import { ProjectPageAlise } from './pages/projectAlise';
 import { ProjectPageFR } from './pages/projectFR';
 import { ProjectPageGYC } from './pages/projectGYC';
 import { ProjectPageOC } from './pages/projectOC';
 import { ProjectPageAO } from './pages/projectAO';
 import { NotFound } from './pages/lalala';
+
+export const history = createHistory()
+
+history.listen((location, action) => {
+  window.scrollTo(0,0)
+})
 
 class App extends Component {
   render() {
@@ -26,7 +33,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/projectCC" component={ProjectPageCC} />
-          <Route exact path="/projectPayLah" component={ProjectPagePayLah} />
+          <Route exact path="/projectPayments" component={ProjectPagePayments} />
           <Route exact path="/projectAlise" component={ProjectPageAlise} />
           <Route exact path="/projectFR" component={ProjectPageFR} />
           <Route exact path="/projectGYC" component={ProjectPageGYC} />

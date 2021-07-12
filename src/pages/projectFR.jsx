@@ -7,7 +7,7 @@ import FRhotline from '../assets/FR hotline.png';
 import FRpietree from '../assets/FR pie tree.png';
 import FRcardsort from '../assets/FR card sort.jpg';
 import FRmentalmodel from '../assets/FRmentalmodel.png';
-import FRcrazydropdowns from '../assets/FR crazy dropdowns.png';
+import FRcrazydropdowns from '../assets/FRdropdowns.png';
 import FRjourneymap from '../assets/FR journey map.jpg';
 import { Header } from '../components/Header/Header';
 import { NextPage } from '../components/NextPage/NextPage';
@@ -104,7 +104,7 @@ export const ProjectPageFR = () => {
                                 </div>
                             </ul>
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
-                                {"And so our work began,starting with the first issue. "}
+                                {"And so our work began, starting with the first issue. "}
                             </p>
                         </div>
                         {/* Re-categorising the categories */}
@@ -152,9 +152,9 @@ export const ProjectPageFR = () => {
                                 {"Reducing user input required"}</p>
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                 {"To tackle the second issue of the lengthy form, we did a comprehensive review of the existing form "}
-                                {"which took users 9 minutes on average to get through. No doubt this was in part due to the "}
+                                {"which took users 9 minutes on average to get through. No doubt this partly due to the "}
                                 {"category confusion from earlier, but the form also had a lot of unecessary fields and "}
-                                {"was difficult to navigate (it had some really crazy dropdowns too)"}</p>
+                                {"was difficult to navigate (it had some really crazy dropdowns too)."}</p>
                             <img src={FRcrazydropdowns} />
                             <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
                                 {"We worked out the back-end logic with our dev squad to help the system auto-populate "}

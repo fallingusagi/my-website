@@ -13,6 +13,17 @@ export const ProjectPageAO = () => {
                 <div className="grid grid-cols-1 space-y-16 place-self-center w-full...">
                     <div className="h-1 w-full"></div>
                     <img src={AO1} />
+{/* 
+                    <div className="space-y-4">
+                        <p className="text-base sm:text-lg md:text-xl font-semibold text-mytheme-charcoal">
+                            {"More projects on the way"}
+                        </p>
+                        <p className="text-sm sm:text-base md:text-lg text-mytheme-ebony">
+                            {"To cut the high manpower costs associated with maintaining a hotline, "}
+                            {"DBS decided to invest in automating the process of lodging facilities issues, "}
+                            {"and thus the online Facilities Reporting service was born."}
+                        </p>
+                    </div> */}
                 </div>
 
 
