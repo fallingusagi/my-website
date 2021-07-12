@@ -10,6 +10,7 @@ import {
 import createHistory from "history/createBrowserHistory";
 
 //Pages
+import {ScrollToTop} from './components/ScrollToTop';
 import { Main } from "./pages";
 import { ProjectPageCC } from './pages/projectCC';
 import { ProjectPagePayments } from './pages/projectPayments';
@@ -20,16 +21,12 @@ import { ProjectPageOC } from './pages/projectOC';
 import { ProjectPageAO } from './pages/projectAO';
 import { NotFound } from './pages/lalala';
 
-export const history = createHistory()
-
-history.listen((location, action) => {
-  window.scrollTo(0,0)
-})
 
 class App extends Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
+        <ScrollToTop/>
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/projectCC" component={ProjectPageCC} />

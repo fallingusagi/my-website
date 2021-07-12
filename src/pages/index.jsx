@@ -40,7 +40,7 @@ export const Main = () => {
           <div className="pb-8 space-y-4 sm:space-y-8 place-self-center">
             <div className="space-y-0 sm:space-y-2">
               <p className=" font-bold text-center text-3xl sm:text-5xl text-mytheme-charcoal">{"Hola! I'm Sarah,"}</p>
-              <p className=" font-semibold text-center text-lg sm:text-2xl text-mytheme-charcoal">{"sugar-eater and experience designer"}</p>
+              <p className=" font-semibold text-center text-lg sm:text-2xl text-mytheme-charcoal">{"interface and experience designer"}</p>
             </div>
             <div className="justify-center">
               <p className="max-w-screen-sm text-center text-sm sm:text-lg text-mytheme-charcoal">
