@@ -18,7 +18,7 @@ import { ProjectPageAlise } from './pages/projectAlise';
 import { ProjectPageFR } from './pages/projectFR';
 import { ProjectPageGYC } from './pages/projectGYC';
 import { ProjectPageOC } from './pages/projectOC';
-import { ProjectPageAO } from './pages/projectAO';
+import { ProjectPageCharter } from './pages/projectCharter';
 import { NotFound } from './pages/lalala';
 
 
@@ -35,7 +35,7 @@ class App extends Component {
           <Route exact path="/projectFR" component={ProjectPageFR} />
           <Route exact path="/projectGYC" component={ProjectPageGYC} />
           <Route exact path="/projectOC" component={ProjectPageOC} />
-          <Route exact path="/projectAO" component={ProjectPageAO} />
+          <Route exact path="/projectCharter" component={ProjectPageCharter} />
           <Route component={NotFound} status={404}/>
         </Switch>
       </Router>
