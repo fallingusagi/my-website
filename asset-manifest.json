@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.acf0905b.chunk.css",
-    "main.js": "/static/js/main.46c38bc6.chunk.js",
-    "main.js.map": "/static/js/main.46c38bc6.chunk.js.map",
+    "main.js": "/static/js/main.d647bac4.chunk.js",
+    "main.js.map": "/static/js/main.d647bac4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fbc5d553.js",
     "runtime-main.js.map": "/static/js/runtime-main.fbc5d553.js.map",
     "static/js/2.242fdc73.chunk.js": "/static/js/2.242fdc73.chunk.js",
@@ -12,7 +12,6 @@
     "index.html": "/index.html",
     "static/css/main.acf0905b.chunk.css.map": "/static/css/main.acf0905b.chunk.css.map",
     "static/js/2.242fdc73.chunk.js.LICENSE.txt": "/static/js/2.242fdc73.chunk.js.LICENSE.txt",
-    "static/media/AO1.0fdaa6d8.png": "/static/media/AO1.0fdaa6d8.png",
     "static/media/Alise1.0c6b74a4.png": "/static/media/Alise1.0c6b74a4.png",
     "static/media/Alise2.8c985bb5.png": "/static/media/Alise2.8c985bb5.png",
     "static/media/Aliseideation.3c0afaec.png": "/static/media/Aliseideation.3c0afaec.png",
@@ -33,6 +32,7 @@
     "static/media/FRdropdowns.db8a534c.png": "/static/media/FRdropdowns.db8a534c.png",
     "static/media/FRmentalmodel.bba8262d.png": "/static/media/FRmentalmodel.bba8262d.png",
     "static/media/GYC1.8fa37995.png": "/static/media/GYC1.8fa37995.png",
+    "static/media/Misc.228dd0ce.png": "/static/media/Misc.228dd0ce.png",
     "static/media/OC1.d4a44e29.png": "/static/media/OC1.d4a44e29.png",
     "static/media/Payments1.818b1270.png": "/static/media/Payments1.818b1270.png",
     "static/media/Payments2.640395b9.png": "/static/media/Payments2.640395b9.png",
@@ -42,9 +42,9 @@
     "static/media/Paymentscompetitors.f84feecc.png": "/static/media/Paymentscompetitors.f84feecc.png",
     "static/media/Paymentsideation.e343e78f.png": "/static/media/Paymentsideation.e343e78f.png",
     "static/media/Paymentsinterview.4557f1f8.png": "/static/media/Paymentsinterview.4557f1f8.png",
-    "static/media/ProjectAO.5a32b8fd.png": "/static/media/ProjectAO.5a32b8fd.png",
     "static/media/ProjectAlise.189ed0ce.png": "/static/media/ProjectAlise.189ed0ce.png",
     "static/media/ProjectCC.f911ea99.png": "/static/media/ProjectCC.f911ea99.png",
+    "static/media/ProjectCharter.a6a89b95.png": "/static/media/ProjectCharter.a6a89b95.png",
     "static/media/ProjectFR.d0c1bb45.png": "/static/media/ProjectFR.d0c1bb45.png",
     "static/media/ProjectGYC.032b349b.png": "/static/media/ProjectGYC.032b349b.png",
     "static/media/ProjectOC.923c2f88.png": "/static/media/ProjectOC.923c2f88.png",
@@ -62,6 +62,6 @@
     "static/js/runtime-main.fbc5d553.js",
     "static/js/2.242fdc73.chunk.js",
     "static/css/main.acf0905b.chunk.css",
-    "static/js/main.46c38bc6.chunk.js"
+    "static/js/main.d647bac4.chunk.js"
   ]
 }
